@@ -1,0 +1,10 @@
+
+try:
+    print ("number adder")
+    num1 = float(input("number1: "))
+    num2 = float(input("number2: "))
+    print(num1 + num2)
+
+except ValueError:
+    print ("didn't enter a number")
+    
